@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+
 //Made by Dylan
 //Makes sure the answer submitted by user is correct.
 
@@ -14,8 +15,6 @@ public class CheckAnswer : MonoBehaviour
     public void CheckAnswerTest()
     {
         var answer = 4;
-
-        Debug.Log("No Errors :)");
         if (userAnswer.text != "")
         {
             if (int.Parse(userAnswer.text) == answer)
