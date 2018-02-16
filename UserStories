@@ -1,0 +1,45 @@
+Open game (Game loads to screen)
+Close game (Game closes screen)
+US 1:1{
+Activate "Touch to Play" and have level one show up.
+  Read game instructions for level 1. that are in bottom left of the screen.
+  After clicking the yes button, look at shape 1 that loads on the screen
+  Read intructions for how to solve for area that show up on bottom left.
+  Read dimensions for shape 1 that are on the shape in the middle
+  Use formula to come up with answer for shape 1
+}
+US 1:2{
+Assuming level one shows up User is able to Type in area for shape 1
+  Hit submit button with wrong answer and be prompted that theyre wrong
+  Read that the wrong answer was submitted and try again
+}
+US 1:3{
+Assuming level one shows up User is able to Type in area for shape 1
+  Hit submit button with right answer and have confirmation of correct answer
+  Read that the answer was correct!
+}
+END OF FIRST CYCLE OF USER STORIES!
+PLEASE IGNORE BELOW THIS.
+ANYTHING BELOW THIS LINE IS NOT RELEVENT FOR THE FIRST WEEK OF DEVELOPMENT
+IF YOU ARE STILL READING THIS STOP BC WE ARE DONE WITH USER STOREIS FOR THIS FIRST CYCLE
+
+
+
+
+
+
+(Repeat steps #8-16 for next 2 shapes)
+Click on formulas sheet button
+Read formula sheet and find apprpriate formula
+close formula sheet
+Apply formula and enter answer to box
+Submit answer (wrong, right)
+.
+.
+.
+Solve last shape for level 1
+Watch transition to level 2
+Gage how far target from catapult
+Enter corrisponding amount into box
+Hit submit to see if wrong or right
+Repeat steps #28-30 like 9 times.
