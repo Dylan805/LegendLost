@@ -25,21 +25,21 @@ IF YOU ARE STILL READING THIS STOP BC WE ARE DONE WITH USER STOREIS FOR THIS FIR
 
 
 
-
-
-
-(Repeat steps #8-16 for next 2 shapes)
-Click on formulas sheet button
-Read formula sheet and find apprpriate formula
-close formula sheet
-Apply formula and enter answer to box
-Submit answer (wrong, right)
-.
-.
-.
-Solve last shape for level 1
-Watch transition to level 2
-Gage how far target from catapult
-Enter corrisponding amount into box
-Hit submit to see if wrong or right
-Repeat steps #28-30 like 9 times.
+US 2:1{
+Assuming shape 1 has appeared and user has gotten shape 1's area correct:
+  Shape 2 will appear on the screen.
+}
+US 2:2{
+User will be able to see the formula to sovle for shape 2's area.
+  User can enter incorredt answer and be informed they were incorrect.
+  User can enter correct answer and be informed they were correct.
+}
+US 2:3{
+Assuming shape 2 has appeared and user has gotten shape 2's area correct:
+  Shape 3 will appeear on the screen.
+}
+US 2:4{
+User will be able to see the formula to sovle for shape 3's area.
+  User can enter incorredt answer and be informed they were incorrect.
+  User can enter correct answer and be informed they were correct.
+}
