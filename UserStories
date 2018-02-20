@@ -43,3 +43,12 @@ User will be able to see the formula to sovle for shape 3's area.
   User can enter incorredt answer and be informed they were incorrect.
   User can enter correct answer and be informed they were correct.
 }
+US 2:5{
+Users will start round 2 of minigame 1.
+  Lancelot will explain the "new rules" of finding area.
+  clicking the -> buttom acknoweldges you read.
+}
+US 2:6{
+Users will be able to click link with a list of formulas for areas
+  Once clicked a list of area formulas will appear.
+}
