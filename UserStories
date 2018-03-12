@@ -73,21 +73,21 @@ Unlike the previous shapes, shapes 4 and 5 will be made of multiple shapes to in
 }
 Zach
 US 3:5{
-Lancelot tells you that you can participate in the tournmanet.
+Lancelot tells you that you can participate in the tournmanet after completion of shape 5.
   Acknowledge his offer and thus begin participation in round 1 of tourney
 }
 Zach
 US 3:6{
-A catapult and a target will show and instructions will appear on what to do
+A catapult and a target will show and instructions will appear on what to do after you acknowledge Lancelot
   clicking the -> buttom acknoweldges you read the instructions.
 }
 Dylan
 US 3:7{
 User will see the numbers needed to determine distance and be able to enter the apropriate answer in the
-  corrisponding text box in the bottom of the screen and click the submit answer button.
+  corrisponding text box in the bottom of the screen and click the submit answer button after you acknowledge instructions.
 }
 Dylan
 US 3:8{
-On incorrect or correct answer, user will see the correctness  of their answer and either advance 
+On incorrect or correct answer for the catapult, user will see the correctness  of their answer and either advance 
   to next target or retry to answer
 }
