@@ -79,9 +79,11 @@ A catapult and a target will show and instructions will appear on what to do
 }
 Dylan
 US 3:7{
-
+User will see the numbers needed to determine distance and be able to enter the apropriate answer in the
+  corrisponding text box in the bottom of the screen and click the submit answer button.
 }
 Dylan
 US 3:8{
-
+On incorrect or correct answer, user will see the correctness  of their answer and either advance 
+  to next target or retry to answer
 }
