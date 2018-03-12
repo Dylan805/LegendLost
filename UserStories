@@ -43,29 +43,27 @@ User will be able to see the formula to sovle for shape 3's area.
   User can enter incorrect answer and be informed they were incorrect.
   User can enter correct answer and be informed they were correct.
 }
-US 2:5{
+US 3:1{
 Users will start round 2 of minigame 1.
   Lancelot will explain the "new rules" of finding area.
   clicking the -> buttom acknoweldges you read the instructions.
 }
-US 2:6{
+US 3:2{
 Users will be able to click link with a list of formulas for areas
   Once clicked a list of area formulas will appear.
   All of the needed formula's will be on the sheet.
 }
-US 2:7{
+US 3:3{
 Users will see shape 4 appear assumming they have correctly solved shape 3's area.
 }
-US 2:8{
+US 3:4{
 Users will solve shapes 4 and 5 using the formula for the shapes given on the sheet.
 Unlike the previous shapes, shapes 4 and 5 will be made of multiple shapes to increase the difficulty.
 }
-US 2:5{
-Users will start round 3 of minigame 1.
-  Lancelot will explain the "new rules" of finding area.
-  clicking the -> buttom acknoweldges you read the instructions.
+US 3:5{
+Lancelot tells you that you can participate in the tournmanet.
+  Acknowledge his offer and thus begin participation in round 1 of tourney
 }
-US 2:9{
-Assuming the user correctly answerd the area for shape 5, the user will see shape 6 appear on the screen.
-Unlike the previous shapes, the user will not be able to use the formula sheet to solve for this unique mixture of even more shapes for the most challenging problem.
+US 3:6{
+Create a catapoult on a timeline
 }
