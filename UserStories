@@ -48,13 +48,13 @@ User will be able to see the formula to sovle for shape 3's area.
 }
 Zach
 US 3:1{
-Users will start round 2 of minigame 1.
+Users will start round 2 of minigame 1 after shape 3 is correct.
   Lancelot will explain the "new rules" of finding area.
   clicking the -> buttom acknoweldges you read the instructions.
 }
 Zach
 US 3:2{
-Users will be able to click link with a list of formulas for areas
+Users will be able to click link with a list of formulas for areas after acknowledging Lancelot
   Once clicked a list of area formulas will appear.
   All of the needed formula's will be on the sheet.
 }
@@ -65,6 +65,10 @@ Users will see shape 4 appear assumming they have correctly solved shape 3's are
 Ethan
 US 3:4{
 Users will solve shapes 4 and 5 using the formula for the shapes given on the sheet.
+If correct input for shape 4 they will be told they entered the correct and shape 5 will show up.
+If incorrect for shape 4 they will be told they are incorrect and shape 4 stays up.
+If correct input for shape 5 they will be told they entered the correct area and this minigame is over.
+If incorrect for shape 5 they will be told they are incorrect and shape 5 stays up.
 Unlike the previous shapes, shapes 4 and 5 will be made of multiple shapes to increase the difficulty.
 }
 Zach
