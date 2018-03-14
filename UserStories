@@ -24,48 +24,70 @@ ANYTHING BELOW THIS LINE IS NOT RELEVENT FOR THE FIRST WEEK OF DEVELOPMENT
 IF YOU ARE STILL READING THIS STOP BC WE ARE DONE WITH USER STOREIS FOR THIS FIRST CYCLE
 
 
-
+Ethan
 US 2:1{
 Assuming shape 1 has appeared and user has gotten shape 1's area correct:
   Shape 2 will appear on the screen.
 }
+Ethan
 US 2:2{
 User will be able to see the formula to sovle for shape 2's area.
   User can enter an incorrect answer and be informed they were incorrect.
   User can enter correct answer and be informed they were correct.
 }
+Ethan
 US 2:3{
 Assuming shape 2 has appeared and user has gotten shape 2's area correct:
   Shape 3 will appeear on the screen.
 }
+Ethan
 US 2:4{
 User will be able to see the formula to sovle for shape 3's area.
   User can enter incorrect answer and be informed they were incorrect.
   User can enter correct answer and be informed they were correct.
 }
-US 2:5{
-Users will start round 2 of minigame 1.
+Zach
+US 3:1{
+Users will start round 2 of minigame 1 after shape 3 is correct.
   Lancelot will explain the "new rules" of finding area.
   clicking the -> buttom acknoweldges you read the instructions.
 }
-US 2:6{
-Users will be able to click link with a list of formulas for areas
+Zach
+US 3:2{
+Users will be able to click link with a list of formulas for areas after acknowledging Lancelot
   Once clicked a list of area formulas will appear.
   All of the needed formula's will be on the sheet.
 }
-US 2:7{
+Ethan
+US 3:3{
 Users will see shape 4 appear assumming they have correctly solved shape 3's area.
 }
-US 2:8{
+Ethan
+US 3:4{
 Users will solve shapes 4 and 5 using the formula for the shapes given on the sheet.
+If correct input for shape 4 they will be told they entered the correct and shape 5 will show up.
+If incorrect for shape 4 they will be told they are incorrect and shape 4 stays up.
+If correct input for shape 5 they will be told they entered the correct area and this minigame is over.
+If incorrect for shape 5 they will be told they are incorrect and shape 5 stays up.
 Unlike the previous shapes, shapes 4 and 5 will be made of multiple shapes to increase the difficulty.
 }
-US 2:5{
-Users will start round 3 of minigame 1.
-  Lancelot will explain the "new rules" of finding area.
+Zach
+US 3:5{
+Lancelot tells you that you can participate in the tournmanet after completion of shape 5.
+  Acknowledge his offer and thus begin participation in round 1 of tourney
+}
+Zach
+US 3:6{
+A catapult and a target will show and instructions will appear on what to do after you acknowledge Lancelot
   clicking the -> buttom acknoweldges you read the instructions.
 }
-US 2:9{
-Assuming the user correctly answerd the area for shape 5, the user will see shape 6 appear on the screen.
-Unlike the previous shapes, the user will not be able to use the formula sheet to solve for this unique mixture of even more shapes for the most challenging problem.
+Dylan
+US 3:7{
+User will see the numbers needed to determine distance and be able to enter the apropriate answer in the
+  corrisponding text box in the bottom of the screen and click the submit answer button after you acknowledge instructions.
+}
+Dylan
+US 3:8{
+On incorrect or correct answer for the catapult, user will see the correctness  of their answer and either advance 
+  to next target or retry to answer
 }
