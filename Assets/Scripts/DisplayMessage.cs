@@ -9,8 +9,6 @@ using UnityEngine.UI;
 
 public class DisplayMessage : MonoBehaviour
 {
-    /*int wid = 2;
-    int hgt = 2;*/
     public Text outputBox;
 
     public void yesButtonClicked ()
