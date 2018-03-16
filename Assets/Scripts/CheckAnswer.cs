@@ -9,7 +9,7 @@ using UnityEngine.UI;
 
 public class CheckAnswer : MonoBehaviour
 {
-    int _mode = 1;
+    int _mode = 1; //square
     public InputField userAnswer;
     public Text outputBox;
     public GameObject Square;
@@ -46,7 +46,7 @@ public class CheckAnswer : MonoBehaviour
                     userAnswer.Select();
                     userAnswer.text = "";
                     Triangle.SetActive(true);
-                    _mode = 2;
+                    _mode = 2; //triangle
                 }
                 else if (_mode == 2 && int.Parse(userAnswer.text) == tri_answer)
                 {
@@ -54,7 +54,7 @@ public class CheckAnswer : MonoBehaviour
                     userAnswer.Select();
                     userAnswer.text = "";
                     Circle.SetActive(true);
-                    _mode = 3;
+                    _mode = 3; //circle
                 }
                 else if (_mode == 3 && int.Parse(userAnswer.text) == crc_answer)
                 {
@@ -65,7 +65,7 @@ public class CheckAnswer : MonoBehaviour
                     Triangle.SetActive(false);
                     Circle.SetActive(false);
                     //sqTri.SetActive(true);
-                   // _mode = 4;
+                   // _mode = 4; //square with triangle
                 }
                 /* else if (_mode == 4 && int.Parse(userAnswer.text) == sqTri_answer)
                 {
@@ -73,14 +73,14 @@ public class CheckAnswer : MonoBehaviour
                     userAnswer.Select();
                     userAnswer.text = "";
                     sqCir.SetActive(true);
-                    _mode = 5;
+                    _mode = 5; //square with circle
                 }
                 else if (_mode == 5 && int.Parse(userAnswer.text) == sqCir_answer)
                 {
                     outputBox.text = "CORRECT!";
                     userAnswer.Select();
                     userAnswer.text = "";
-                    
+                    //no more modes, insert new scene here
                 }
                 */
             else
