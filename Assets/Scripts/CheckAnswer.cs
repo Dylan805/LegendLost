@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 
-//Made by Dylan and Wildman
+//Made by Dylan and Wildman and Ethan
 //Makes sure the answer submitted by user is correct.
 
 public class CheckAnswer : MonoBehaviour
