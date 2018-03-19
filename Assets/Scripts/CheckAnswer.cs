@@ -9,7 +9,12 @@ using UnityEngine.UI;
 
 public class CheckAnswer : MonoBehaviour
 {
-    int _mode = 1;
+    const int sq_state = 1;
+    const int tri_state = 2;
+    const int cir_state = 3;
+    const int sqtri_state = 4;
+    const int sqcir_state = 5;
+    int _mode = sq_state;
     public InputField userAnswer;
     public Text outputBox;
     public GameObject Square;
@@ -40,23 +45,23 @@ public class CheckAnswer : MonoBehaviour
         var crc_answer = pi * (crc_rad * crc_rad);
         if (userAnswer.text != "")
         {   
-                if (_mode == 1 && int.Parse(userAnswer.text) == rec_answer)
+                if (_mode == sq_state && int.Parse(userAnswer.text) == rec_answer)
                 {
                     outputBox.text = "CORRECT!";
                     userAnswer.Select();
                     userAnswer.text = "";
                     Triangle.SetActive(true);
-                    _mode = 2;
+                    _mode = tri_state;
                 }
-                else if (_mode == 2 && int.Parse(userAnswer.text) == tri_answer)
+                else if (_mode == tri_state && int.Parse(userAnswer.text) == tri_answer)
                 {
                     outputBox.text = "CORRECT!";
                     userAnswer.Select();
                     userAnswer.text = "";
                     Circle.SetActive(true);
-                    _mode = 3;
+                    _mode = cir_state;
                 }
-                else if (_mode == 3 && int.Parse(userAnswer.text) == crc_answer)
+                else if (_mode == cir_state && int.Parse(userAnswer.text) == crc_answer)
                 {
                     outputBox.text = "CORRECT!";
                     userAnswer.Select();
@@ -64,25 +69,25 @@ public class CheckAnswer : MonoBehaviour
                     Square.SetActive(false);
                     Triangle.SetActive(false);
                     Circle.SetActive(false);
-                    //sqTri.SetActive(true);
-                   // _mode = 4;
+                    sqTri.SetActive(true);
+                    _mode = sqtri_state;
                 }
-                /* else if (_mode == 4 && int.Parse(userAnswer.text) == sqTri_answer)
+                else if (_mode == sqtri_state && int.Parse(userAnswer.text) == sqTri_answer)
                 {
                     outputBox.text = "CORRECT!";
                     userAnswer.Select();
                     userAnswer.text = "";
                     sqCir.SetActive(true);
-                    _mode = 5;
+                    _mode = sqcir_state;
                 }
-                else if (_mode == 5 && int.Parse(userAnswer.text) == sqCir_answer)
+                else if (_mode == sqcir_state && int.Parse(userAnswer.text) == sqCir_answer)
                 {
                     outputBox.text = "CORRECT!";
                     userAnswer.Select();
                     userAnswer.text = "";
-                    
+                    //go to next scene here
                 }
-                */
+               
             else
                 {
                     outputBox.text = "FAILURE! Try again!";
