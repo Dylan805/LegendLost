@@ -4,21 +4,18 @@ using UnityEngine;
 using UnityEngine.UI;
 
 
-//Made by Dylan and Wildman and Ethan
+//Made by Dylan and Wildman
 //Makes sure the answer submitted by user is correct.
 
 public class CheckAnswer : MonoBehaviour
 {
-<<<<<<< HEAD
-    const int sq_state = 1;
-    const int tri_state = 2;
-    const int cir_state = 3;
-    const int sqtri_state = 4;
-    const int sqcir_state = 5;
-    int _mode = sq_state;
-=======
-    int _mode = 1; 
->>>>>>> 003f66612f06d5a76dd0ed754940b0d911215196
+    const int square_mode = 1;
+    const int tri_mode = 2;
+    const int cir_mode = 3;
+    const int sqTri_mode = 4;
+    const int sqCir_mode = 5;
+    int _mode = square_mode;
+
     public InputField userAnswer;
     public Text outputBox;
     public GameObject Square;
@@ -49,23 +46,23 @@ public class CheckAnswer : MonoBehaviour
         var crc_answer = pi * (crc_rad * crc_rad);
         if (userAnswer.text != "")
         {   
-                if (_mode == sq_state && int.Parse(userAnswer.text) == rec_answer)
+                if (_mode == square_mode && int.Parse(userAnswer.text) == rec_answer)
                 {
                     outputBox.text = "CORRECT!";
                     userAnswer.Select();
                     userAnswer.text = "";
                     Triangle.SetActive(true);
-                    _mode = tri_state;
+                    _mode = tri_mode;
                 }
-                else if (_mode == tri_state && int.Parse(userAnswer.text) == tri_answer)
+                else if (_mode == tri_mode && int.Parse(userAnswer.text) == tri_answer)
                 {
                     outputBox.text = "CORRECT!";
                     userAnswer.Select();
                     userAnswer.text = "";
                     Circle.SetActive(true);
-                    _mode = cir_state;
+                    _mode = cir_mode;
                 }
-                else if (_mode == cir_state && int.Parse(userAnswer.text) == crc_answer)
+                else if (_mode == cir_mode && int.Parse(userAnswer.text) == crc_answer)
                 {
                     outputBox.text = "CORRECT!";
                     userAnswer.Select();
@@ -73,29 +70,26 @@ public class CheckAnswer : MonoBehaviour
                     Square.SetActive(false);
                     Triangle.SetActive(false);
                     Circle.SetActive(false);
-                    sqTri.SetActive(true);
-                    _mode = sqtri_state;
-                    sqTri.SetActive(true);
-                   _mode = 4; 
+                    //sqTri.SetActive(true);
+                    // _mode = sqTri_mode;
                 }
-                else if (_mode == sqtri_state && int.Parse(userAnswer.text) == sqTri_answer)
+                /* else if (_mode == sqTri_mode && int.Parse(userAnswer.text) == sqTri_answer)
                 {
                     outputBox.text = "CORRECT!";
                     userAnswer.Select();
                     userAnswer.text = "";
                     sqCir.SetActive(true);
-                    _mode = sqcir_state;
-                    _mode = 5; 
+                    _mode = sqCir_mode;
                 }
-                else if (_mode == sqcir_state && int.Parse(userAnswer.text) == sqCir_answer)
+                else if (_mode == sqCir_mode && int.Parse(userAnswer.text) == sqCir_answer)
                 {
                     outputBox.text = "CORRECT!";
                     userAnswer.Select();
                     userAnswer.text = "";
-                    //go to next scene here
+
                 }
-               
-            else
+                */
+                else
                 {
                     outputBox.text = "FAILURE! Try again!";
                 }

@@ -5,7 +5,18 @@ licenseType: Free
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - userAnswer: {instanceID: 0}
+  - outputBox: {instanceID: 0}
+  - Square: {instanceID: 0}
+  - Triangle: {instanceID: 0}
+  - Circle: {instanceID: 0}
+  - submitButton: {instanceID: 0}
+  - recWidth: {instanceID: 0}
+  - recHeight: {instanceID: 0}
+  - triBase: {instanceID: 0}
+  - triHeight: {instanceID: 0}
+  - crcRadius: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
