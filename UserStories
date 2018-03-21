@@ -83,11 +83,18 @@ A catapult and a target will show and instructions will appear on what to do aft
 }
 Dylan
 US 3:7{
+After clicking the -> button to acknowledge instructions after US 3:6:
 User will see the numbers needed to determine distance and be able to enter the apropriate answer in the
   corrisponding text box in the bottom of the screen and click the submit answer button after you acknowledge instructions.
 }
 Dylan
 US 3:8{
-On incorrect or correct answer for the catapult, user will see the correctness  of their answer and either advance 
-  to next target or retry to answer
+After Clicking the submit answer button after US 3:7:
+On incorrect answer for the catapult, user will see see that they are incorrect and be prompted to retry the answer
 }
+Dylan
+US 3:9{
+After Clicking the submit answer button after US 3:7:
+On correct answer for the catapult, user will see that they are correct and advance to next target
+}
+

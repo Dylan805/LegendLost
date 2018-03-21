@@ -4,17 +4,21 @@ using UnityEngine;
 using UnityEngine.UI;
 
 
-//Made by Dylan and Wildman
+//Made by Dylan and Wildman and Ethan
 //Makes sure the answer submitted by user is correct.
 
 public class CheckAnswer : MonoBehaviour
 {
+<<<<<<< HEAD
     const int sq_state = 1;
     const int tri_state = 2;
     const int cir_state = 3;
     const int sqtri_state = 4;
     const int sqcir_state = 5;
     int _mode = sq_state;
+=======
+    int _mode = 1; 
+>>>>>>> 003f66612f06d5a76dd0ed754940b0d911215196
     public InputField userAnswer;
     public Text outputBox;
     public GameObject Square;
@@ -69,8 +73,13 @@ public class CheckAnswer : MonoBehaviour
                     Square.SetActive(false);
                     Triangle.SetActive(false);
                     Circle.SetActive(false);
+<<<<<<< HEAD
                     sqTri.SetActive(true);
                     _mode = sqtri_state;
+=======
+                    //sqTri.SetActive(true);
+                   // _mode = 4; 
+>>>>>>> 003f66612f06d5a76dd0ed754940b0d911215196
                 }
                 else if (_mode == sqtri_state && int.Parse(userAnswer.text) == sqTri_answer)
                 {
@@ -78,7 +87,11 @@ public class CheckAnswer : MonoBehaviour
                     userAnswer.Select();
                     userAnswer.text = "";
                     sqCir.SetActive(true);
+<<<<<<< HEAD
                     _mode = sqcir_state;
+=======
+                    _mode = 5; 
+>>>>>>> 003f66612f06d5a76dd0ed754940b0d911215196
                 }
                 else if (_mode == sqcir_state && int.Parse(userAnswer.text) == sqCir_answer)
                 {
