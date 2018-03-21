@@ -73,13 +73,10 @@ public class CheckAnswer : MonoBehaviour
                     Square.SetActive(false);
                     Triangle.SetActive(false);
                     Circle.SetActive(false);
-<<<<<<< HEAD
                     sqTri.SetActive(true);
                     _mode = sqtri_state;
-=======
-                    //sqTri.SetActive(true);
-                   // _mode = 4; 
->>>>>>> 003f66612f06d5a76dd0ed754940b0d911215196
+                    sqTri.SetActive(true);
+                   _mode = 4; 
                 }
                 else if (_mode == sqtri_state && int.Parse(userAnswer.text) == sqTri_answer)
                 {
@@ -87,11 +84,8 @@ public class CheckAnswer : MonoBehaviour
                     userAnswer.Select();
                     userAnswer.text = "";
                     sqCir.SetActive(true);
-<<<<<<< HEAD
                     _mode = sqcir_state;
-=======
                     _mode = 5; 
->>>>>>> 003f66612f06d5a76dd0ed754940b0d911215196
                 }
                 else if (_mode == sqcir_state && int.Parse(userAnswer.text) == sqCir_answer)
                 {
