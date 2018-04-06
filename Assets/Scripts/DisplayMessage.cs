@@ -15,4 +15,9 @@ public class DisplayMessage : MonoBehaviour
     {
         outputBox.text = "Read the formula for Area";
     }
+
+    public void yesButtonClickedLvl3()
+    {
+        outputBox.text = "Choose the peices of the circles that make a whole circle";
+    }
 }
