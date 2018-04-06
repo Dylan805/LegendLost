@@ -74,7 +74,7 @@ public class CheckAnswer : MonoBehaviour
                 Triangle.SetActive(true);
                 _mode = tri_mode;
             }
-            //Activates when square_mode is completed and activates circle mode upon completeion
+            //Activates when square_mode is completed and activates circle mode upon completion
             else if (_mode == tri_mode && int.Parse(userAnswer.text) == tri_answer)
             {
                 outputBox.text = "CORRECT!";
@@ -83,7 +83,7 @@ public class CheckAnswer : MonoBehaviour
                 Circle.SetActive(true);
                 _mode = cir_mode;
             }
-            //Activates wehn tri_mode is completed and activates the triangle and square combination shape upon completion
+            //Activates when tri_mode is completed and activates the triangle and square combination shape upon completion
             else if (_mode == cir_mode && int.Parse(userAnswer.text) == crc_answer)
             {
                 outputBox.text = "Way to go! Thanks for helping me complete those buildings! I need 2 more buildings to complete. (Formulas for areas are attached to button called 'Fomrulas')";
