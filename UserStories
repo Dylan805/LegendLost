@@ -123,5 +123,5 @@ After completing mini-game 2, the user will see a similar transition of mini gam
 Ethan 
 US 5.1
 {
-  When the Horse Racing game opens, the user will see a track with horse sprites on it and instructions for how to play the game.
+  When the Horse Racing game opens, the user will see a track with horse sprites on it and instructions for how to play the game will be in the bottom left.
 }
