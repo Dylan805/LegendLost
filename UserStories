@@ -123,13 +123,14 @@ After completing mini-game 2, the user will see a similar transition of mini gam
 Zach 
 US 5.1
 {
-After completing mini-game 3, the Horse Racing game opens, the user will see a track with horse sprites on it and instructions for how to play the game will be in the bottom left.
+After completing mini-game 3:
+  The Horse Racing game opens, the user will see a track with horse sprites on it and instructions for how to play the game will be in the bottom left.
 }
 Dylan
 US 5.2
 {
 After 4.5 is noted:
-  User will be able to click on the shapes to select or deselect to make a whole circle. They will see this by highlighting the shapes.
+  User will be able to click on the shapes to select or deselect. They will see this by highlighting the shapes.
 }
 Ethan
 US 5.3
@@ -137,4 +138,23 @@ US 5.3
 After 4.4 is noted:
   After completing 5 shots where the catapult is resting at positive numbers on the number line, the user will go on to a new mode in the catapult game where they shoot
   the catapult that is resting at a positive number or negative at a target that is also resting at a positive or negative number. 
+}
+US 5.4
+{
+After 5.2 is noted:
+  User will try and select shapes that make a full circle and hit submit to see if they were correct.
+    Prompted if correct and create new shapes
+    Prompited if incorrect and tell user to try again.
+}
+US 5.5
+{
+After 5:1 is noted:
+  User clicks the -> button to acknowledge reading.
+  Once done Lancelot will warn you the race is starting as soon as you are hit ready.
+    User hits ready and sees a math problem appear in the bottom left and the time begins counting down on top of the sreen.
+}
+US 5.6
+{
+After 5.5 is noted:
+  User will answer five questions before the time runs out and will be scored and move up a certain distance based on their performance
 }
