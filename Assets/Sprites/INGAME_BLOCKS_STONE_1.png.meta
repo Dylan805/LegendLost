@@ -1,0 +1,330 @@
+fileFormatVersion: 2
+guid: a759377bdc0394c4b8dd63558de35724
+timeCreated: 1521758834
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: INGAME_BLOCKS_STONE_1_0
+    21300002: INGAME_BLOCKS_STONE_1_2
+    21300004: INGAME_BLOCKS_STONE_1_3
+    21300006: INGAME_BLOCKS_STONE_1_4
+    21300008: INGAME_BLOCKS_STONE_1_5
+    21300010: INGAME_BLOCKS_STONE_1_6
+    21300012: INGAME_BLOCKS_STONE_1_7
+    21300014: INGAME_BLOCKS_STONE_1_8
+    21300016: INGAME_BLOCKS_STONE_1_9
+    21300018: INGAME_BLOCKS_STONE_1_10
+    21300020: INGAME_BLOCKS_STONE_1_11
+    21300022: INGAME_BLOCKS_STONE_1_1
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: INGAME_BLOCKS_STONE_1_2
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 343
+        width: 76
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2.017334, y: 37.5}
+        - {x: -38, y: 37.5}
+        - {x: -38, y: 0.6027832}
+        - {x: -38, y: 16.5}
+        - {x: -38, y: -20.5}
+        - {x: -24, y: -37.5}
+        - {x: 22, y: -37.5}
+        - {x: 36, y: -26.5}
+        - {x: 38, y: -16.5}
+        - {x: 38, y: 37.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: INGAME_BLOCKS_STONE_1_3
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 269
+        width: 84
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42, y: 32.5}
+        - {x: -42, y: -32.5}
+        - {x: 42, y: -32.5}
+        - {x: 42, y: 32.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: INGAME_BLOCKS_STONE_1_4
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 237
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.5, y: 10.5}
+        - {x: -10.5, y: -10.5}
+        - {x: 10.5, y: -10.5}
+        - {x: 10.5, y: 10.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: INGAME_BLOCKS_STONE_1_5
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 194
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.5, y: 10.5}
+        - {x: -10.5, y: -10.5}
+        - {x: 10.5, y: -10.5}
+        - {x: 10.5, y: 10.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: INGAME_BLOCKS_STONE_1_6
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 172
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.5, y: 10.5}
+        - {x: -10.5, y: -10.5}
+        - {x: 10.5, y: -10.5}
+        - {x: 10.5, y: 10.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: INGAME_BLOCKS_STONE_1_7
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 150
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.5, y: 10.5}
+        - {x: -10.5, y: -10.5}
+        - {x: 10.5, y: -10.5}
+        - {x: 10.5, y: 10.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: INGAME_BLOCKS_STONE_1_8
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 0
+        width: 80
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40, y: 40.5}
+        - {x: -40, y: -40.5}
+        - {x: 40, y: -40.5}
+        - {x: 40, y: -33.5}
+        - {x: -34, y: 40.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: INGAME_BLOCKS_STONE_1_9
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 4
+        width: 80
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40, y: 40.5}
+        - {x: -40, y: -40.5}
+        - {x: 40, y: -40.5}
+        - {x: 40, y: -33.5}
+        - {x: -34, y: 40.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: INGAME_BLOCKS_STONE_1_10
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 1
+        width: 42
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 64.5}
+        - {x: -21, y: -64.5}
+        - {x: 21, y: -64.5}
+        - {x: 21, y: 64.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: INGAME_BLOCKS_STONE_1_11
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 6
+        width: 40
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 18.5}
+        - {x: -20, y: 16.5}
+        - {x: -20, y: -12.5}
+        - {x: -18, y: -18.5}
+        - {x: 20, y: -18.5}
+        - {x: 20, y: 14.5}
+        - {x: 18, y: 18.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: INGAME_BLOCKS_STONE_1_1
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 194
+        width: 208
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -104, y: 11.5}
+        - {x: -104, y: -11.5}
+        - {x: 104, y: -11.5}
+        - {x: 104, y: 11.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: INGAME_BLOCKS_STONE_1_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 250
+        width: 84
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42, y: 42.5}
+        - {x: -42, y: -42.5}
+        - {x: 42, y: -42.5}
+        - {x: 42, y: 42.5}
+      - - {x: -21, y: -15.5}
+        - {x: -21, y: 17.5}
+        - {x: 18, y: 18.5}
+        - {x: 15, y: -18.5}
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
