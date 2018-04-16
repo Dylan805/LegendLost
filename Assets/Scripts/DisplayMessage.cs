@@ -18,6 +18,6 @@ public class DisplayMessage : MonoBehaviour
 
     public void yesButtonClickedLvl3()
     {
-        outputBox.text = "Choose the peices of the circles that make a whole circle";
+        outputBox.text = "Choose the pieces of the circles that make a whole circle";
     }
 }
