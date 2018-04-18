@@ -56,20 +56,20 @@ public class DistanceGenerator : MonoBehaviour
         if (mode == catAtZero)
         {
             num1 = 0;
-            num2 = rnd.Next(6, 11) * 5;
-            displayBox.text = "in first mode";
+            num2 = rnd.Next(1, 30);
+            displayBox.text = "Let us start with something simple";
         }
         else if (mode == catTarPositive)
         {
-            num1 = rnd.Next(1, 6) * 5;
-            num2 = rnd.Next(6, 11) * 5;
-            displayBox.text = "in second mode";
+            num1 = rnd.Next(1, 30);
+            num2 = rnd.Next(30, 60);
+            displayBox.text = "Okay! Now a little harder";
         }
         else if (mode == catTarEither)
         {
-            num1 = rnd.Next(-6, 6) * 5;
-            num2 = rnd.Next(-11, 11) * 5;
-            displayBox.text = "in third mode";
+            num1 = rnd.Next(-30, 30);
+            num2 = rnd.Next(-60, 60);
+            displayBox.text = "Let us see what you can do! Remember you are finding the distance!";
 
         }
         else
@@ -91,7 +91,7 @@ public class DistanceGenerator : MonoBehaviour
     { 
         int mark1 = int.Parse(outputBoxL2.text);
         int mark2 = int.Parse(outputBoxR2.text);
-        int correctAnswer = mark2 - mark1;
+        int correctAnswer = Mathf.Abs(mark2 - mark1);
         int userAnswer = int.Parse(input.text);
 
         if (userAnswer == correctAnswer)
