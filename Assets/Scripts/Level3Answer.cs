@@ -92,21 +92,21 @@ public class Level3Answer : MonoBehaviour {
         }
         else if (mode == 1)
         {
-            box1.GetComponent<Level3Script>().value = .25F;
-            box2.GetComponent<Level3Script>().value = .25F;
-            box3.GetComponent<Level3Script>().value = .25F;
+            box1.GetComponent<Level3Script>().value = .125F;
+            box2.GetComponent<Level3Script>().value = .500F;
+            box3.GetComponent<Level3Script>().value = .875F;
             box4.GetComponent<Level3Script>().value = .25F;
-            box5.GetComponent<Level3Script>().value = .25F;
-            box6.GetComponent<Level3Script>().value = .25F;
+            box5.GetComponent<Level3Script>().value = .75F;
+            box6.GetComponent<Level3Script>().value = .5F;
         }
         else if (mode == 2)
         {
-            box1.GetComponent<Level3Script>().value = .25F;
-            box2.GetComponent<Level3Script>().value = .25F;
-            box3.GetComponent<Level3Script>().value = .25F;
-            box4.GetComponent<Level3Script>().value = .25F;
-            box5.GetComponent<Level3Script>().value = .25F;
-            box6.GetComponent<Level3Script>().value = .25F;
+            box1.GetComponent<Level3Script>().value = .625F;
+            box2.GetComponent<Level3Script>().value = .375F;
+            box3.GetComponent<Level3Script>().value = .625F;
+            box4.GetComponent<Level3Script>().value = .125F;
+            box5.GetComponent<Level3Script>().value = .125F;
+            box6.GetComponent<Level3Script>().value = .500F;
         }
         //Fractions only
         else if (mode == 3)
@@ -121,65 +121,113 @@ public class Level3Answer : MonoBehaviour {
 
             box1Text.text = "1/8";
             box2Text.text = "2/8";
-            box3Text.text = "1/4";
+            box3Text.text = "2/4";
             box4Text.text = "3/8";
             box5Text.text = "1/2";
             box6Text.text = "1/8";
 
             box1.GetComponent<Level3Script>().value = .125F;
             box2.GetComponent<Level3Script>().value = .25F;
-            box3.GetComponent<Level3Script>().value = .25F;
+            box3.GetComponent<Level3Script>().value = .5F;
             box4.GetComponent<Level3Script>().value = .375F;
             box5.GetComponent<Level3Script>().value = .5F;
             box6.GetComponent<Level3Script>().value = .125F;
         }
         else if (mode == 4)
         {
-            box1.GetComponent<Level3Script>().value = .25F;
-            box2.GetComponent<Level3Script>().value = .25F;
-            box3.GetComponent<Level3Script>().value = .25F;
+            box1Text.text = "1/8";
+            box2Text.text = "2/4";
+            box3Text.text = "7/8";
+            box4Text.text = "2/8";
+            box5Text.text = "3/4";
+            box6Text.text = "1/2";
+
+            box1.GetComponent<Level3Script>().value = .125F;
+            box2.GetComponent<Level3Script>().value = .5F;
+            box3.GetComponent<Level3Script>().value = .875F;
             box4.GetComponent<Level3Script>().value = .25F;
-            box5.GetComponent<Level3Script>().value = .25F;
-            box6.GetComponent<Level3Script>().value = .25F;
+            box5.GetComponent<Level3Script>().value = .75F;
+            box6.GetComponent<Level3Script>().value = .5F;
         }
         else if (mode == 5)
         {
-            box1.GetComponent<Level3Script>().value = .25F;
-            box2.GetComponent<Level3Script>().value = .25F;
+            box1Text.text = "3/8";
+            box2Text.text = "1/8";
+            box3Text.text = "1/4";
+            box4Text.text = "7/8";
+            box5Text.text = "3/8";
+            box6Text.text = "6/8";
+
+            box1.GetComponent<Level3Script>().value = .375F;
+            box2.GetComponent<Level3Script>().value = .125F;
             box3.GetComponent<Level3Script>().value = .25F;
-            box4.GetComponent<Level3Script>().value = .25F;
-            box5.GetComponent<Level3Script>().value = .25F;
-            box6.GetComponent<Level3Script>().value = .25F;
+            box4.GetComponent<Level3Script>().value = .875F;
+            box5.GetComponent<Level3Script>().value = .375F;
+            box6.GetComponent<Level3Script>().value = .75F;
         }
         //Mixed groups
         else if (mode == 6)
         {
             //Switch box to mixed componants
+            box1Text.text = "5/8";
+            box2Object.SetActive(true);
+            box3Text.text = "2/4";
+            box4Object.SetActive(true);
+            box5Text.text = "2/8";
+            box6Object.SetActive(true);
 
-            box1.GetComponent<Level3Script>().value = .25F;
-            box2.GetComponent<Level3Script>().value = .25F;
-            box3.GetComponent<Level3Script>().value = .25F;
-            box4.GetComponent<Level3Script>().value = .25F;
+            box2Text.text = "";
+            box4Text.text = "";
+            box6Text.text = "";
+
+            box1.GetComponent<Level3Script>().value = .625F;
+            box2.GetComponent<Level3Script>().value = .125F;
+            box3.GetComponent<Level3Script>().value = .5F;
+            box4.GetComponent<Level3Script>().value = .625F;
             box5.GetComponent<Level3Script>().value = .25F;
-            box6.GetComponent<Level3Script>().value = .25F;
+            box6.GetComponent<Level3Script>().value = .875F;
         }
         else if (mode == 7)
         {
-            box1.GetComponent<Level3Script>().value = .25F;
-            box2.GetComponent<Level3Script>().value = .25F;
-            box3.GetComponent<Level3Script>().value = .25F;
+            box1Object.SetActive(true);
+            box2Object.SetActive(false);
+            box3Object.SetActive(true);
+            box4Object.SetActive(false);
+            box5Object.SetActive(true);
+            box6Object.SetActive(false);
+
+            box2Text.text = "1/2";
+            box4Text.text = "1/4";
+            box6Text.text = "4/8";
+            box1Text.text = "";
+            box3Text.text = "";
+            box5Text.text = "";
+
+            box1.GetComponent<Level3Script>().value = .125F;
+            box2.GetComponent<Level3Script>().value = .5F;
+            box3.GetComponent<Level3Script>().value = .875F;
             box4.GetComponent<Level3Script>().value = .25F;
-            box5.GetComponent<Level3Script>().value = .25F;
-            box6.GetComponent<Level3Script>().value = .25F;
+            box5.GetComponent<Level3Script>().value = .75F;
+            box6.GetComponent<Level3Script>().value = .5F;
         }
         else if (mode == 8)
         {
-            box1.GetComponent<Level3Script>().value = .25F;
-            box2.GetComponent<Level3Script>().value = .25F;
-            box3.GetComponent<Level3Script>().value = .25F;
+            box2Object.SetActive(true);
+            box5Object.SetActive(false);
+
+            box1Text.text = "";
+            box2Text.text = "";
+            box3Text.text = "";
+            box4Text.text = "1/4";
+            box5Text.text = "1/8";
+            box6Text.text = "1/8";
+
+            box1.GetComponent<Level3Script>().value = .875F;
+            box2.GetComponent<Level3Script>().value = .75F;
+            box3.GetComponent<Level3Script>().value = .625F;
             box4.GetComponent<Level3Script>().value = .25F;
-            box5.GetComponent<Level3Script>().value = .25F;
-            box6.GetComponent<Level3Script>().value = .25F;
+            box5.GetComponent<Level3Script>().value = .125F;
+            box6.GetComponent<Level3Script>().value = .125F;
         }
         else if (mode == 9)
         {
