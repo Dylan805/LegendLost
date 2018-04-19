@@ -833,8 +833,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: So here is the next round... this is totally a legit round and not at all
-    doing busy work for the king...
+  m_Text: We have partially crafted round tables but no full one! The knight who completes
+    the most tables will be sent to the final round! Good luck!
 --- !u!222 &242438020
 CanvasRenderer:
   m_ObjectHideFlags: 0

@@ -31,7 +31,7 @@ public class DistanceGenerator : MonoBehaviour
     int correctCount = 0;
     
     
-    
+    // game setup
     public void ReadIntro()
     {
         catapult.SetActive(true);
@@ -43,6 +43,9 @@ public class DistanceGenerator : MonoBehaviour
 
         displayBox.text = "You will be shooting a catapult at a target. The target will be at a certain point and your goal is to find the distance between the catapult and the dummy. Round 1 Begins!";
     }
+
+
+    //sets up the catapult and creates the random numbers
     public void NextButtonClickedAgain()
     {
         ready.SetActive(false);
@@ -87,6 +90,8 @@ public class DistanceGenerator : MonoBehaviour
         outputBoxR3.text = (num2 + 5).ToString();
     }
 
+
+    //checks the answer that was submitted is the correct answer and procedes accordingly
     public void AnswerSubmitted()
     { 
         int mark1 = int.Parse(outputBoxL2.text);
@@ -94,7 +99,9 @@ public class DistanceGenerator : MonoBehaviour
         int correctAnswer = Mathf.Abs(mark2 - mark1);
         int userAnswer = int.Parse(input.text);
 
-        if (userAnswer == correctAnswer)
+
+        //if the answer is right then it computes a new place for the catapult and updates the number that the user has gotten correct
+        if (userAnswer == correctAnswer)        
         {
             displayBox.text = "CORRECT!";
             input.text = "";
@@ -117,7 +124,7 @@ public class DistanceGenerator : MonoBehaviour
         }
         else if (correctCount > 14 && mode == catTarEither)
         {
-            SceneManager.LoadScene("ThridLevel");
+            SceneManager.LoadScene("ThridLevel");           //go to next level
         }
     }
 }

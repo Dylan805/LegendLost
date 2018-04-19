@@ -36,6 +36,8 @@ public class Level3Answer : MonoBehaviour {
     //Initialize private vars
     private float total = 0;
     private int mode = 0;
+    private string correct = "CORRECT!";
+    private string incorrect = "Hmmm... That's not right. Try Again!";
 
     //Gathers each selected boxes values and adds them together to check if equal to whole.
     //If equal or not equal to whole value, the response is logged to debugger for ease of access.
@@ -69,7 +71,7 @@ public class Level3Answer : MonoBehaviour {
         {
             Debug.Log("passed");
             total = 0;
-            textbox.text = "CORRECT!";
+            textbox.text = correct;
             mode++;
 
         }
@@ -77,7 +79,7 @@ public class Level3Answer : MonoBehaviour {
         {
             Debug.Log("failed");
             total = 0;
-            textbox.text = "Failure, try again";
+            textbox.text = incorrect;
         }
 
         //Circle parts only

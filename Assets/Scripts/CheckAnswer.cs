@@ -55,6 +55,8 @@ public class CheckAnswer : MonoBehaviour
     double sqCir_height = 4;
     double sqCir_answer;
 
+    public string correct = "CORRECT!";
+
     //Goes through the modes created and changes the scene based on the mode activated
     public void CheckAnswerTest()
     {
@@ -68,7 +70,7 @@ public class CheckAnswer : MonoBehaviour
             //Starts active and changes to triangle's mode upon completeion
             if (_mode == square_mode && int.Parse(userAnswer.text) == rec_answer)
             {
-                outputBox.text = "CORRECT!";
+                outputBox.text = correct;
                 userAnswer.Select();
                 userAnswer.text = "";
                 Triangle.SetActive(true);
@@ -77,7 +79,7 @@ public class CheckAnswer : MonoBehaviour
             //Activates when square_mode is completed and activates circle mode upon completion
             else if (_mode == tri_mode && int.Parse(userAnswer.text) == tri_answer)
             {
-                outputBox.text = "CORRECT!";
+                outputBox.text = correct;
                 userAnswer.Select();
                 userAnswer.text = "";
                 Circle.SetActive(true);
@@ -99,7 +101,7 @@ public class CheckAnswer : MonoBehaviour
             //Activates when the cir_mode is completed and activates the square and two half circles upon completion
             else if (_mode == sqTri_mode && int.Parse(userAnswer.text) == sqTri_answer)
             {
-                outputBox.text = "CORRECT!";
+                outputBox.text = correct;
                 userAnswer.Select();
                 userAnswer.text = "";
                 sqCir1.SetActive(true);
@@ -108,7 +110,7 @@ public class CheckAnswer : MonoBehaviour
             //Activates when the square_tri_mode is completed and activates next scene upon completion
             else if (_mode == sqCir_mode && int.Parse(userAnswer.text) == sqCir_answer)
             {
-                outputBox.text = "CORRECT!";
+                outputBox.text = correct;
                 userAnswer.Select();
                 userAnswer.text = "";
                 this.enabled = false;

@@ -35,17 +35,22 @@ public class Level4CheckAnswer : MonoBehaviour {
     {
         if (numberCorrect == 10)
         {
-            SceneManager.LoadScene("TitleScreen");
+            SceneManager.LoadScene("TitleScreen");      //restarts the game if the user has completed the level and again presses the acknowleged button
         }
-        AcknowledgeButton.SetActive(false);
-        Input.SetActive(true);
-        SubmitButton.SetActive(true);
-        startTime = (int)Time.time;
-        started = true;
-        HelpTextBox.text = "";
-        ComputeAnswer();
+        //this section is called at the beginning of the game when the user acknowledges the instructions. it is the setup of the beginning of the game
+        else
+        {
+            AcknowledgeButton.SetActive(false);
+            Input.SetActive(true);
+            SubmitButton.SetActive(true);
+            startTime = (int)Time.time;
+            started = true;
+            HelpTextBox.text = "";
+            ComputeAnswer();
+        }
     }
 
+    //on each frame the timer counts and updates
     private void Update()
     {
         if (started && !(finished))
@@ -67,18 +72,30 @@ public class Level4CheckAnswer : MonoBehaviour {
         }
         else
         {
+            SubmitButton.SetActive(false);
+            Input.SetActive(false);
             TimerSeconds.text = "0";
-            HelpTextBox.text = "TIMES UP!";
+            HelpTextBox.text = "TIMES UP!" + '\n' + "TRY THE RACE AGAIN";
+            currentTime = (int)Time.time;
+            if ((timeAllowed - (currentTime - startTime)) <= (-5))
+            {
+                SceneManager.LoadScene("FourthLevel");
+            }
         }
     }
     
+    //computes a formula and a solution and displays the formula 
     private void ComputeAnswer ()
     {
+        //create random numbers to put in the formula
         num1 = rnd.Next(1, 11);
         num2 = rnd.Next(1, 6);
         num3 = rnd.Next(-5, 6);
         HelpTextBox.text += '\n' + " Solve for x...";
-        if(numberCorrect <= 2)
+
+
+        //when the user gets more answers correct the formulas get more difficult
+        if(numberCorrect <= 2) 
         {
             FormulaTextBox.text = (num1 + " - " + num2 + " + " + num3 + " = ");
             answer = num1 - num2 + num3;
@@ -96,7 +113,7 @@ public class Level4CheckAnswer : MonoBehaviour {
         }
         else if (numberCorrect == 9)
         {
-            num1 *= num2;
+            num1 *= num2;                                //this ensures that the division will always produce an integer for ease of solving
             FormulaTextBox.text = ("( " + num1 + " / " + num2 + " ) " + " * " + num3 + " = ");
             answer = num1 / num2 * num3;
         }
@@ -105,6 +122,8 @@ public class Level4CheckAnswer : MonoBehaviour {
 
     }
 
+
+    //this function checks that the answer submitted is the correct answer and if it is it updates the number correct
     public void CheckAnswer()
     {
         int userAnswer = int.Parse(UserAnswer.text);
@@ -148,7 +167,7 @@ public class Level4CheckAnswer : MonoBehaviour {
             racer6.SetActive(false);
             racer7.SetActive(true);
         }
-        else if (numberCorrect == 10)
+        else if (numberCorrect == 10)                               //the end of the game. Disables entering of answers and enables restart of game if desired.
         {
             racer7.SetActive(false);
             racer1.SetActive(true);
